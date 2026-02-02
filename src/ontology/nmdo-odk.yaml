@@ -1,0 +1,42 @@
+id: nmdo
+title: "Neuromuscular Disease Ontology"
+github_org: NeuromuscularDisease
+repo: neuromuscular-disease-ontology
+git_main_branch: main
+release_artefacts: 
+  - full
+#  - base
+primary_release: full
+export_formats:
+  - owl
+  - obo
+#  - json
+import_group:
+  use_base_merging: TRUE
+  mirror_max_time_download: 500
+  annotation_properties:
+    - rdfs:label
+    - IAO:0000115
+    - IAO:0000116
+    - IAO:0000111
+    - oboInOwl:hasDbXref
+    - rdfs:comment
+  products: 
+    - id: hp
+      use_base: TRUE
+    - id: mondo
+      use_base: TRUE
+#    - id: ncit
+#      is_large: TRUE
+#      make_base: TRUE
+#      base_iris:
+#        - NCIT
+robot_report:
+  use_labels: TRUE
+  fail_on: ERROR
+  report_on:
+    - edit
+robot_java_args: '-Xmx16G'
+remove_owl_nothing: TRUE
+documentation:
+  documentation_system: mkdocs
