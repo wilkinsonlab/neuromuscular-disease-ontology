@@ -9,6 +9,7 @@ changes to this document in a pull request.
 ## Table Of Contents
 
 - [Guidelines for Contributions and Requests](#contributions)
+    * [Getting started with GitHub](#github-quickstart-guide)
     * [Reporting problems with the ontology](#reporting-bugs)
     * [Requesting new terms](#requesting-terms)
     * [Adding new terms by yourself](#adding-terms)
@@ -22,9 +23,9 @@ changes to this document in a pull request.
 
 <a id="github-quickstart-guide"></a>
 
-### Getting started with Github
+### Getting started with GitHub
 
-If you're new to Github or would like a short refresher please checkout the [Github quickstart guide](https://docs.github.com/en/get-started/start-your-journey/hello-world). It is a short hands-on tutorial that teaches you GitHub essentials like repositories, branches, commits, and pull requests. 
+If you're new to GitHub or would like a short refresher, please check out the [GitHub quickstart guide](https://docs.github.com/en/get-started/start-your-journey/hello-world). It is a short hands-on tutorial that teaches you GitHub essentials like repositories, branches, commits, and pull requests. 
 
 <a id="reporting-bugs"></a>
 
