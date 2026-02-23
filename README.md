@@ -4,8 +4,6 @@
 
 Description: None
 
-More information can be found at http://obofoundry.org/ontology/nmdo
-
 ## Versions
 
 ### Stable release versions
